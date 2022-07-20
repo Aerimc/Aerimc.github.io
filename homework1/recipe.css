@@ -1,0 +1,50 @@
+h2 {
+  color: rgb(164, 164, 0);
+  background-color: rgb(240, 240, 240);
+  font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 18pt;
+  letter-spacing: 0.25em;
+  display: inline-flex;
+}
+.menu {
+  list-style-type: none;
+}
+.home {
+  vertical-align: middle;
+}
+.main {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  color: #a4a400;
+  text-decoration: underline;
+}
+body {
+  color: rgb(64, 64, 64);
+  background-color: white;
+  font-family: Georgia, Garamond, Arial;
+  background-image: url("/images/lab1/silverware.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  color: rgb(164, 164, 0);
+}
+.val {
+  text-align: left;
+}
+.copy {
+  text-align: left;
+}
+blockquote {
+  background-color: rgb(255, 255, 168);
+  font-style: italic;
+}
+.pie {
+  list-style-image: url("/images/lab1/pie_icon.gif");
+}
