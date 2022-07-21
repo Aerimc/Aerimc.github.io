@@ -1,0 +1,134 @@
+body{
+    background-image: url(background.png);
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 50px;
+  background-image: url(bannerbg.png);
+}
+.banner img{
+    margin-left: 25%;
+}
+.heading {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  font-family: Tahoma, Verdana, sans-serif;
+  text-shadow: 3px 3px #999999;
+}
+.main{
+vertical-align: baseline;
+}
+.content {
+  width: 800px;
+  margin: auto;
+  border: 4px solid grey;
+  border-radius: 20px;
+  overflow: auto;
+}
+.contentbanner,
+.contentbanner img {
+  font-size: 48pt;
+  font-weight: bold;
+  color: red;
+  background-image: url(rbg.png);
+  height: 83px;
+  
+}
+.contentbanner span{
+    vertical-align: top;
+}
+
+.contentright {
+  width: 35%;
+  background-color: #A2B964;
+  float: right;
+  margin-left: 3px;
+}
+.movieinfo{
+    width: 250px;
+    font-weight: bold;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+.movieinfo dl{
+    margin: 10pt;
+}
+.overview img {
+  width: 100%;
+  height: 380px;
+}
+.contentleft {
+  width: 550px;
+  
+}
+.comments{
+    margin: 1%;
+}
+.reviewsleft {
+  width: 47%;
+  float: left;
+}
+.reviewsright {
+  width: 47%;
+  float: right;
+}
+.review{
+ padding: 8px;
+ padding-bottom: 10px;
+  border: 2px solid grey;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 8pt;
+  background-color: #E8DC9B;
+  vertical-align: baseline;
+  
+}
+.review q{
+    margin: 8px;
+   
+}
+.review img{
+    margin-right: 5px;
+    float: left;
+}
+.person{
+    margin-bottom: 20pt; 
+    font-weight: bold;
+}
+.person span{
+    font-style: italic;
+}
+
+.person img{
+    margin-right: 5px;
+    float: left;
+}
+.contentbottom{
+    clear: both;
+    background-color: #A2B964;
+    text-align: center;
+    padding: 0.4px;
+}
+
+.validator{
+    position: fixed;
+   right: 0;
+   bottom: 0;
+    opacity: 0.5;
+}
+dt{
+    font-weight: bold;
+}
+dd{
+    font-weight: bold;
+    margin-bottom: 10pt;
+}
+dd li{
+    list-style: none;
+}
