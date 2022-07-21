@@ -111,11 +111,11 @@ body {
   text-align: center;
   padding: 0.4px;
 }
-.validator{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    opacity: 0.5;
+.validator {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
 }
 
 dt {
