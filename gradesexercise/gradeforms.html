@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Retrieve Grade</title>
+</head>
+
+<body>
+    <h1>Retrieve your grade</h1>
+    <form action="http://mumstudents.org/params.php" method="get">
+        <label>Name</label><br>
+        <input type="text" name="Name" pattern="[A-Za-z]*.[A-Za-z]*" title="Type entered is not allowed"><br><br>
+        <label>Student ID</label><br>
+        <input type="text" name="Student ID" pattern="[0-9]{3,}" title="Type entered is not allowed"><br><br>
+
+
+
+        <select value="">
+            <option>Assignment 1</option>
+            <option>Assignment 2</option>
+            <option>Assignment 3</option>
+            <option selected>Assignment 4</option>
+
+        </select><br><br>
+        <fieldset style="width: 60%;">
+            <legend>Choose your entry</legend>
+            <input type="radio" value="May 2022" name="cc">Nov 2021
+            <input type="radio" value="May 2022" name="cc">Feb 2022
+            <input type="radio" value="May 2022" name="cc" checked>May 2022
+            <input type="radio" value="May 2022" name="cc" disabled>Oct 2022
+        </fieldset><br><br>
+        <fieldset style="width: 60%;">
+            <input type="checkbox" value="yes">I confirm that I am a student of this University and that I <br>am
+            looking
+            for my own grade.
+        </fieldset><br><br>
+        <input type="submit" value="Get Grade!">
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+body{
+    background-color: floralwhite;
+}
+.main {
+  width: 550px;
+  margin: auto;
+  height: 250px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Arial;
+}
+fieldset {
+  background-color: rgb(212, 217, 235);
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px grey;
+  margin-bottom: 50px;
+}
+fieldset legend {
+  background-color: whitesmoke;
+  border: 1px solid grey;
+  border-radius: 1px;
+  box-shadow: 1px 1px grey;
+  font-family: Arial;
+}
+.left {
+  float: left;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 3px;
+  line-height: 30px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.right {
+  margin-top: 20px;
+  line-height: 31px;
+  font-family: Arial;
+}
+.right input {
+    
+    border: 2px solid rgb(235, 232, 232);
+    border-style: inset;
+    border-bottom: none;
+    border-right: none;
+}
+.left label {
+  margin-bottom: 60px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: rgb(243, 157, 172);
+  font-size: 12pt;
+  font-weight: bolder;
+  font-family: Arial;
+  border: 3px solid rgb(231, 221, 221);
+  border-style: outset;
+}
+input[type="submit"]:hover{
+    background-color: rgb(241, 139, 156);
+    cursor: pointer;
+}
+input[type="submit"]:active {
+    border-style: inset;
+}
+a {
+  text-decoration: none;
+  color: rgb(238, 93, 117);
+}
+
+.logo {
+    color: blue;
+    font-size: 40pt;
+    margin-bottom: 0px;
+}
+.logo span{
+    font-weight: bolder;
+    color: grey;
+}
+.logo sup{
+    font-size: x-large;
+}
+.sub{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
