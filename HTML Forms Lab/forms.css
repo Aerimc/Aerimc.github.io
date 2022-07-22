@@ -1,5 +1,5 @@
-body{
-    background-color: floralwhite;
+body {
+  background-color: floralwhite;
 }
 .main {
   width: 550px;
@@ -38,11 +38,10 @@ fieldset legend {
   font-family: Arial;
 }
 .right input {
-    
-    border: 2px solid rgb(235, 232, 232);
-    border-style: inset;
-    border-bottom: none;
-    border-right: none;
+  border: 2px solid rgb(235, 232, 232);
+  border-style: inset;
+  border-bottom: none;
+  border-right: none;
 }
 .left label {
   margin-bottom: 60px;
@@ -56,12 +55,12 @@ input[type="submit"] {
   border: 3px solid rgb(231, 221, 221);
   border-style: outset;
 }
-input[type="submit"]:hover{
-    background-color: rgb(241, 139, 156);
-    cursor: pointer;
+input[type="submit"]:hover {
+  background-color: rgb(241, 139, 156);
+  cursor: pointer;
 }
 input[type="submit"]:active {
-    border-style: inset;
+  border-style: inset;
 }
 a {
   text-decoration: none;
@@ -69,20 +68,18 @@ a {
 }
 
 .logo {
-    color: blue;
-    font-size: 40pt;
-    margin-bottom: 0px;
+  color: blue;
+  font-size: 40pt;
+  margin-bottom: 0px;
 }
-.logo span{
-    font-weight: bolder;
-    color: grey;
+.logo span {
+  font-weight: bolder;
+  color: grey;
 }
-.logo sup{
-    font-size: x-large;
+.logo sup {
+  font-size: x-large;
 }
-.sub{
-    margin-top: 0px;
-    margin-bottom: 50px;
+.sub {
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
-
-
