@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Task List</h1>
+        <div class="left">
+            <h3>Task</h3>
+
+            <input type="text" id="task"><br><br>
+            <button type="button" onclick="addTask();">Add Task</button><br><br>
+            <button onclick="clearTask();">Clear Tasks</button>
+        </div>
+        <div class="right">
+            <h3>Task List</h3>
+            <textarea id="tasklist" rows="7" cols="35" placeholder=""></textarea>
+        </div>
+    </div>
+    <script>
+
+        document.getElementById("tasklist").innerHTML = localStorage.getItem("list");
+        function addTask() {
+            let text = document.getElementById("task").value;
+            document.getElementById("tasklist").value += text + "\n";
+            document.getElementById("task").value = "";
+            localStorage.setItem("list", document.getElementById("tasklist").value);
+        }
+        function clearTask() {
+            document.getElementById("tasklist").value = "";
+        }
+    </script>
+</body>
+
+</html>

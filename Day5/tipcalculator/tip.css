@@ -1,0 +1,30 @@
+body {
+  font-family: "Century Gothic", sans-serif;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+#subtotal {
+  width: 60%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+#tip {
+  width: 60%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#btn {
+  width: 30%;
+  height: 30px;
+  margin-bottom: 30px;
+  font-size: large;
+}
+h2 {
+  font-weight: bolder;
+}
