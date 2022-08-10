@@ -10,9 +10,9 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-exports.wordMeaning = function (res, searchterm) {
+exports.wordMeaning = function (res, word) {
   connection.query(
-    'select * from entries where word = "' + searchterm + '"',
+    'select * from entries where word = "' + word + '"',
     function (err, rows) {
       if (err) {
         throw err;

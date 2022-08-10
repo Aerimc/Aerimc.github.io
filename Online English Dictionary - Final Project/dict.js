@@ -1,10 +1,9 @@
 $(document).ready(function () {
   $("#submit").click(function () {
-    $.ajax({
+    $.ajax("http://localhost:8000/search", {
       method: "POST",
-      url: "http://localhost:8000/search",
       data: JSON.stringify({
-        searchTerm: document.getElementById("searchKey").value,
+        lookup: document.getElementById("searchKey").value,
       }),
       contentType: "application/json; charset=utf-8",
       success: showSearchResult,

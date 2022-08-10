@@ -15,7 +15,7 @@ app.get("/", function (req, res) {
 
 // Searving the results page when lookup is clicked
 app.post("/search", function (req, res) {
-  search.wordMeaning(res, req.body.searchTerm);
+  search.wordMeaning(res, req.body.lookup);
 });
 
 var server = app.listen(8000, function () {
